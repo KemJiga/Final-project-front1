@@ -9,7 +9,7 @@
         cursor: pointer;
     }
     
-    /*
+    
     body::-webkit-scrollbar {
         display: none;
     }
@@ -18,7 +18,7 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
-    */
+    
 
     :root {
         --main-color: #232C50;
