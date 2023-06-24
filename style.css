@@ -105,6 +105,8 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
+        align-items: center;
+        padding: 0% 4% 0% 4%;
     }
 
     .conteiner-element {
@@ -682,5 +684,15 @@
     @media (max-width: 480px) {
         .newsletter input, #go {
             height: 60%;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        .card-pfp {
+            top: -5%;
+        }
+
+        .newsletter input, #go {
+            height: 30%;
         }
     }

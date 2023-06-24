@@ -158,11 +158,11 @@
                     <li>Privacy Policy</li>
                 </ul>
             </div>
-            <form class="newsletter" action="submit">
-                <input class="newsletter-input" type="text" placeholder="Update in your inbox...">
-                <div class="general-button" id="go">
-                    <span>Go</span>
-                </div>
+            <form class="newsletter" action="">
+                <input class="newsletter-input" type="email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-]+)(\.[a-zA-Z]{2,5}){1,2}$" placeholder="Update in your inbox..." required>
+                <button type="submit" class="general-button" id="go">
+                    Go
+                </button>
             </form>
 
         </div>
